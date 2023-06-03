@@ -14,6 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      {/* any code written here will be shown in every route page created, this file enable personalization of behavior
+      of the application, but providing a common layout for all pages */}
     </html>
   )
 }

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 //here is one of the most important files
+//this is just basically index.js file, but called now page.js
 
 export default function Home() {
   return (
